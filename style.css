@@ -1,0 +1,469 @@
+* {
+    font-family: Vazirmatn, sans-serif;
+    direction: rtl;
+}
+
+#menu {
+    background-color: #3e1153;
+   
+
+}
+
+
+
+
+.header-option>li {
+    text-align: center;
+    margin-right: 35px;
+    list-style: none;
+}
+
+.item3 {
+    max-width: 30%;
+}
+
+#icon {
+    color: white;
+}
+
+a:hover,
+#icon:hover {
+    color: red;
+}
+
+.button-menu {
+    border-radius: 0%;
+    background-color: #e31e30;
+}
+
+.button-menu:hover {
+
+    background-color: #e31e30;
+}
+
+.media-menu {
+    display: none;
+}
+
+
+
+#rightside {
+    background-image: url(image/bg.jpg);
+    resize: none;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.title {
+    font-weight: 900;
+}
+
+.body-news {
+    border-left: 1px solid #dde0e1;
+}
+
+#btn-arshive {
+    background-color: #512b80;
+    border-radius: 0%;
+    width: 15%;
+    float: left;
+    margin-bottom: 45px;
+}
+
+#otherSErvices:hover,
+#btn-arshive:hover {
+    color: white;
+    background-color: red;
+}
+
+
+
+#btn-slider4:hover {
+    background-color: red;
+    color: white;
+
+}
+
+.btn-online {
+
+    background-color: #e31e30;
+
+}
+
+.btn-online:hover {
+    background-color: white;
+    color: #e31e30;
+
+}
+
+.rightcenterdowncol {
+    background-color: #f2f2f2;
+    height: 200px;
+    border-radius: 10px;
+
+}
+
+
+#text-card {
+    font-size: smaller;
+}
+
+a:link {
+
+    text-decoration: none;
+
+}
+
+
+a#more:visited {
+    color: #512b80;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a {
+    color: black;
+}
+
+#now {
+
+    background-color: #f8f8f8;
+
+}
+
+#news {
+    padding-top: 35px;
+    padding-bottom: 8px;
+    padding-right: 15px;
+    border-bottom: 2px solid #e4e2e2;
+}
+
+.title-news {
+    color: #512b80;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+
+#container>div {
+    text-align: center;
+    margin-top: 49px;
+}
+
+article>div {
+
+    padding: 10px;
+}
+
+#containermore>div {
+    text-align: center;
+}
+
+#more {
+    color: #512b80;
+}
+
+
+#container-news {
+    background-color: #f8f8f8;
+}
+
+.ancor {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#footerweb {
+    background-color: #ddd;
+}
+
+.news-fir-text {
+    font-weight: 900;
+    font-size: large;
+}
+
+.social-m {
+
+    margin: 0px auto;
+}
+
+
+.socialmedia {
+    color: white;
+    cursor: pointer;
+    font-size: x-large;
+    background-color: #aaaaaa;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 2px;
+}
+
+
+.socialmedia:hover {
+    background-color: #512b80;
+}
+
+
+#footer-text {
+    color: #a0a0a0;
+    cursor: pointer;
+}
+
+#footer-text:hover {
+    color: #512b80;
+    cursor: pointer;
+}
+
+#footer-address {
+    color: #a0a0a0;
+
+}
+
+.address-icon {
+    font-size: xx-large;
+    color: #6c757d;
+}
+
+#footer-down {
+    background-color: #3e1153;
+    font-size: smaller;
+}
+
+.sis-title {
+    font-weight: 700;
+}
+
+#menu-media {
+    display: none;
+    background-color: #3e1153;
+}
+
+.carousel-inner {
+    position: relative;
+    border-bottom: 4px solid red;
+}
+
+#slider1,
+#slider2,
+#slider3,
+#slider4 {
+
+    width: 30%;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    color: #666;
+    bottom: 60px;
+    right: 70px;
+    text-align: justify;
+
+}
+
+
+#btn-slider1 {
+    margin-top: 20px;
+    padding: 8px;
+    background-color: #57317a;
+    border-radius: 0;
+}
+
+#btn-slider2 {
+    margin-top: 20px;
+    border-radius: 0;
+    padding: 8px;
+    background-color: #57317a;
+}
+
+#btn-slider3 {
+    border-radius: 0;
+    padding: 8px;
+    margin-top: 30px;
+    background-color: #57317a;
+}
+
+#btn-slider4 {
+    border-radius: 0;
+    padding: 8px;
+    margin-top: 10px;
+    background-color: #57317a;
+}
+
+#btn-slider4:hover {
+    color: white;
+    background-color: red;
+}
+
+.title-slider {
+    font-weight: 700;
+}
+
+.portal-header {
+    display: none;
+    background-color: #3e1153;
+
+}
+
+.section-2 {
+    background-color: #57317a;
+    ;
+}
+
+.item-nav {
+    font-size: small;
+    font-weight: 700;
+   
+   
+}
+.icon-section{
+    color: #c9c9c9;
+    font-size: xx-large;
+}
+
+@media(max-width:800px) {
+    .portal-header {
+        display: block;
+    }
+    .slider-menu{
+        padding-top: 60px;
+    }
+
+
+    #menu-media {
+        display: block;
+        background-color: #3e1153;
+    }
+
+    #icon-media-menu {
+        background-color: #e4e2e2;
+    }
+
+
+
+    #menu {
+        display: none;
+    }
+
+    .banner-media {
+        margin-top: 92px;
+    }
+
+    #arrow-media {
+        display: none;
+    }
+
+
+    #slider1,
+    #slider2,
+    #slider3,
+    #slider4 {
+        position: static;
+        width: 100%;
+        display: inline-block;
+        height: auto;
+    }
+
+    #btn-slider1 {
+        margin-top: 0px;
+    }
+
+    #btn-slider2 {
+        margin-top: 10px;
+    }
+
+    #btn-slider3 {
+        margin-top: 10px;
+    }
+
+    #btn-slider4 {
+        margin-top: 5px;
+    }
+
+    .carousel-indicators {
+        top: 0px;
+    }
+
+    .carousel-item>img {
+
+        height: 300px;
+
+    }
+
+    #red-line {
+        width: 100%;
+        height: 2px;
+        background-color: red;
+    }
+
+
+    .rightcenterdowncol {
+        margin: 10px;
+
+      
+    }
+    
+
+    .ancornews {
+        font-size: 14px;
+        margin-bottom: 10px;
+
+    }
+
+    #btn-arshive {
+        width: 100%;
+        float: none;
+        margin-bottom: 8px;
+    }
+
+    .btn-arshive-media {
+        border-top: 1px solid #e4e2e2;
+        padding-top: 7px;
+
+    }
+
+    .image-mews {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .news-headline {
+        border-left: none;
+    }
+
+    .image-media {
+        width: 100%;
+        cursor: pointer;
+    }
+
+    .news-fir-text {
+        margin-right: 75px;
+    }
+
+    #otherSErvices {
+        width: 50%;
+        display: none;
+
+    }
+
+    .line-body {
+        display: none;
+    }
+
+    .body-news {
+        border-left: none;
+    }
+
+}
+
+.image-media:hover {
+    box-shadow: 1px 1px 20px rgb(118, 116, 116);
+    cursor: pointer;
+}
+
+
+#otherSErvices {
+
+    background-color: #512b80;
+    border-radius: 0%;
+    margin-right: 27px;
+
+}
